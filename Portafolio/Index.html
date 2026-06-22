@@ -223,8 +223,8 @@
             <img src="imgs/yo.jpg" alt="Jose Alonso" class="profile-img">
             
             <div class="hero-text">
-                <h1>Jose Alonso</h1>
-                <h3>Ingeniero en Tecnologías de la Información</h3>
+                <h1>José Alonso</h1>
+                <h3>Junior Backend Developer | Python · Docker · Cloud</h3>
                 
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/alonsocepeda/?locale=en_US" target="_blank">
@@ -233,8 +233,8 @@
                     <a href="https://github.com/Jose-arl03" target="_blank">
                         <i class='bx bxl-github'></i>
                     </a>
-                    <a href="https://www.instagram.com/alonso._rl/" target="_blank">
-                        <i class='bx bxl-instagram'></i>
+                    <a href="cv-jose-alonso.pdf" download target="_blank">
+                         <i class='bx bx-download'></i>
                     </a>
                 </div>
             </div>
@@ -243,15 +243,10 @@
         <section id="about" class="about-section">
             <h2 class="section-title">Sobre Mí</h2>
             <div class="about-content">
-                <p style="margin-bottom: 15px; color: #ccd6f6;">
-                    Soy un recién egresado de la universidad en proceso de titulación en la UPV, con muchas ganas de trabajar, aprender nuevas habilidades y continuar certificándome profesionalmente.
+                <p style="margin-bottom: 15px; color: #ccd6f6; font-size: 18px;">
+                   Backend developer junior recién egresado de Ingeniería en TI (UPV Victoria), con experiencia construyendo APIs REST con autenticación JWT y middleware de integración con servicios cloud (MictlanX) para CINVESTAV. Trabajo con Python, Docker y bases de datos relacionales, y estoy ampliando mi experiencia hacia AWS y Azure. Certificado en Python (PCEP) y UX Design profesionalmente.
                 </p>
-                <ul class="about-list">
-                    <li>💡 Apasionado por explorar nuevas tecnologías.</li>
-                    <li>🎓 Ingeniero en Tecnologías de la Información — UPV Victoria.</li>
-                    <li>🌱 Enfocado en Python, Cloud Computing y Microservicios.</li>
-                    <li>✍️ Gustos: Música, ejercicio, videojuegos y fotografía.</li>
-                </ul>
+
             </div>
         </section>
     </div>
@@ -259,17 +254,18 @@
     <section class="section">
         <h2 class="section-title">Últimos Proyectos</h2>
         <div class="carousel-container">
+
             
-            <div class="card project-card">
+            <a href="https://github.com/Jose-arl03/Nez-daemon" target="_blank" class="card project-card">
                 <div class="card-image">
                     <img src="imgs/mictla.jpg" alt="MictlanX">
                 </div>
                 <div class="card-content">
                     <h3>Middleware & Cloud Storage</h3>
                     <p>Desarrollo de un middleware para un sistema de predicción de enfermedades y su integración con el sistema de almacenamiento en la nube MictlanX. Proyecto realizado para el CINVESTAV.</p>
-                    <span class="tag">Python</span> <span class="tag">Cloud</span> <span class="tag">Docker</span>
+                    <span class="tag">Python</span> <span class="tag">Cloud</span> <span class="tag">Docker</span>  
                 </div>
-            </div>
+            </a>
 
             <div class="card">
                 <div class="card-image">
@@ -282,17 +278,40 @@
                 </div>
             </div>
 
-            <div class="card">
+
+            <a href="https://github.com/Jose-arl03/WordMatch" target="_blank" class="card">
                 <div class="card-image">
-                     <img src="imgs/movil.jpg" alt="Apps Moviles">
+                    <img src="imgs/movil.jpg" alt="Apps Moviles">
                 </div>
                 <div class="card-content">
                     <h3>Apps Móviles (Hobby)</h3>
                     <p>Colección de apps por hobby: Ubicar casillas de votaciones con API Google Maps, Visor de modelos 3D (motores), App estilo Duolingo en desarrollo para aprendizaje de idiomas.</p>
                     <span class="tag">Mobile</span> <span class="tag">3D</span> <span class="tag">API</span>
                 </div>
-            </div>
+            </a>
             
+
+            
+        <a href="https://github.com/Jose-arl03/Compra-Facil" target="_blank" class="card">
+            <div class="card-image">
+                <img src="imgs/store.png" alt="Tienda Online">
+            </div>
+            <div class="card-content">
+                <h3>Tienda Web E-Commerce</h3>
+                <p>
+                    Desarrollo de una tienda online con catálogo de productos,
+                    carrito de compras, gestión de pedidos y diseño responsivo
+                    para dispositivos móviles y escritorio.
+                </p>
+                <span class="tag">E-Commerce</span>
+                <span class="tag">Frontend</span>
+                <span class="tag">Responsive</span>
+            </div>
+        </a>
+
+
+            
+
             <div style="min-width: 20px;"></div>
 
         </div>
@@ -303,10 +322,24 @@
         <div class="carousel-container">
             
             <div class="card cert-card">
+                <div class="pdf-icon"><i class="fas fa-file-code"></i></div>
+                <h3>Python Institute PCEP</h3>
+                <p>Entry-Level Python Programmer.</p>
+                <button class="btn-view" onclick="openPdf('Cert/Python.pdf')">Ver Documento</button>
+            </div>
+
+            <div class="card cert-card">
                 <div class="pdf-icon"><i class="fas fa-file-pdf"></i></div>
                 <h3>Google UX Design</h3>
                 <p>Diseño de Experiencia de Usuario.</p>
                 <button class="btn-view" onclick="openPdf('Cert/UX.pdf')">Ver Documento</button>
+            </div>
+
+            <div class="card cert-card">
+                <div class="pdf-icon"><i class="fas fa-file-pdf"></i></div>
+                <h3>Scrum Foundation</h3>
+                <p>Certificación Profesional SFPC.</p>
+                <button class="btn-view" onclick="openPdf('Cert/Scrum.pdf')">Ver Documento</button>
             </div>
 
             <div class="card cert-card">
@@ -318,17 +351,18 @@
 
             <div class="card cert-card">
                 <div class="pdf-icon"><i class="fas fa-file-pdf"></i></div>
-                <h3>Scrum Foundation</h3>
-                <p>Certificación Profesional SFPC.</p>
-                <button class="btn-view" onclick="openPdf('Cert/Scrum.pdf')">Ver Documento</button>
+                <h3>Introduction to Cybersecurity</h3>
+                <p>Fundamentos de ciberseguridad</p>
+                <button class="btn-view" onclick="openPdf('Cert/Cyb.pdf')">Ver Documento</button>
             </div>
 
             <div class="card cert-card">
-                <div class="pdf-icon"><i class="fas fa-file-code"></i></div>
-                <h3>Python Institute PCEP</h3>
-                <p>Entry-Level Python Programmer.</p>
-                <button class="btn-view" onclick="openPdf('Cert/Python.pdf')">Ver Documento</button>
+                <div class="pdf-icon"><i class="fas fa-file-pdf"></i></div>
+                <h3>Security Endpoint Security</h3>
+                <p>Fundamentos de seguridad informática</p>
+                <button class="btn-view" onclick="openPdf('Cert/Security.pdf')">Ver Documento</button>
             </div>
+
 
         </div>
     </section>
@@ -337,7 +371,20 @@
         <h2 class="section-title">Insignias Digitales</h2>
         <div class="carousel-container">
             
+            <a href="https://www.credly.com/badges/9b4c35e9-3da4-4dd7-bb5b-a9f706662b33/public_url" target="_blank" class="card badge-card">
+                <img src="imgs/python.png" alt="Python">
+                <h3>Python PCEP</h3>
+            </a>
 
+             <a href="https://www.credly.com/badges/a4b355db-7075-4c82-9368-649f69d61aed/public_url" target="_blank" class="card badge-card">
+                <img src="imgs/UX.png" alt="UX">
+                <h3>User Experience (UX) Design</h3>
+            </a>
+
+            <a href="https://www.credly.com/earner/earned/badge/3cceb20a-db7e-40d7-a020-827db6ad9c56" target="_blank" class="card badge-card">
+                <img src="imgs/scrum.png" alt="Scrum">
+                <h3>Scrum Foundation</h3>
+            </a>
 
              <a href="https://www.credly.com/badges/d9870a8c-02e7-44f3-b8be-c1c60b3bee7e/public_url" target="_blank" class="card badge-card">
                 <img src="imgs/AI.png" alt="AI">
@@ -350,24 +397,11 @@
                 <h3>Intro Cybersecurity</h3>
             </a>
 
-             <a href="https://www.credly.com/badges/a4b355db-7075-4c82-9368-649f69d61aed/public_url" target="_blank" class="card badge-card">
-                <img src="imgs/UX.png" alt="UX">
-                <h3>User Experience (UX) Design</h3>
-            </a>
+
 
             <a href="https://www.credly.com/badges/cb3a8b1f-c27e-4db2-9cbb-26857175cf34/public_url" target="_blank" class="card badge-card">
                 <img src="imgs/EndpointSecurity.png" alt="Security">
                 <h3>Endpoint Security</h3>
-            </a>
-
-            <a href="https://www.credly.com/badges/9b4c35e9-3da4-4dd7-bb5b-a9f706662b33/public_url" target="_blank" class="card badge-card">
-                <img src="imgs/python.png" alt="Python">
-                <h3>PCEP Python</h3>
-            </a>
-            
-            <a href="https://www.credly.com/earner/earned/badge/3cceb20a-db7e-40d7-a020-827db6ad9c56" target="_blank" class="card badge-card">
-                <img src="imgs/scrum.png" alt="Scrum">
-                <h3>Scrum Foundation</h3>
             </a>
 
 
